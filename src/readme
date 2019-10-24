@@ -6,3 +6,8 @@ sekunden.c Schreiben Sie ein C-Programm, das die Anzahl der Sekunden im Monat Ok
 Aufgabe 2:
 villa.c
 Das Programm verlangt zwei positiven Integer Eingaben und errechnet die Fläche und die Kosten eines Rundeweges.
+
+Aufgabe 3:
+netto.c
+Ein Programm das Netto einliest und Brutto sowie 19% Wert  ausgibt im folgenden Format(8.2f)
+Wichtig der input mus "." im komma haben und nicht ","
