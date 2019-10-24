@@ -11,7 +11,3 @@ Aufgabe 3:
 netto.c
 Ein Programm das Netto einliest und Brutto sowie 19% Wert  ausgibt im folgenden Format(8.2f)
 Wichtig der input mus "." im komma haben und nicht ","
-
-Aufgabe 4:
-integer.c
-Schreiben Sie ein C-Programm, das zwei Integerzahlen (Typ int) einliest und addiert.

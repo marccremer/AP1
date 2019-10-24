@@ -2,7 +2,7 @@
 # include <stdlib.h>
 
 int getinput(char* inputname){
-	/* returns the entered integer or exits with an error */
+	//returns the entered integer or exits with an error
 	int num, nitems;
 	printf("Enter %s please:\n",inputname );
 	nitems = scanf( "%i",  &num);
@@ -27,18 +27,18 @@ int getinput(char* inputname){
 }
 
 int main () {
-	/*hilfe " x4 = x2/2 und x3 = x1/5" */
+	//hilfe " x4 = x2/2 und x3 = x1/5"
 	int x1,x2;
 	float area,rundshort,rundlong,x3,x4;
 	x1 = getinput("x1") ;
 	x2 = getinput("x2") ;
-	/* hilfe area ist block1+block2+block3 
-	block1=x2*x3.block2=x1*(x2-x4),block3=block1*/
+	//hilfe area ist block1+block2+block3
+	//block1=x2*x3.block2=x1*(x2-x4),block3=block1
 	x3 = x1/5;
 	x4 = x2/2;
 	area =x2*x3*2+x1*(x2-x4);
 	printf(" Die Villa fläche ist %.0f m^2\n",area );
-	/*der lange rundweg geht an allend wänden entlang und der kurze ist der kürzeste Weg um die Villa */
+	//der lange rundweg geht an allend wänden entlang und der kurze ist der kürzeste Weg um die Villa
 	rundshort = x1*x2;
 	rundlong = x2+x1+x2+x3+(x1-x3*2)+x3;
 	printf("Der kürzeste Weg um die Villa ist %.0f m^2 und der Umfang der Villa is %0.f m^2 \n",rundshort,rundlong );
